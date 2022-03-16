@@ -1,7 +1,12 @@
 void main() {
-  printHelloWorld(message: "Não deu certo!");
+  var MinhaClass = MinhaClasse();
+  printHelloWorld(message: MinhaClass.message);
 }
 
 void printHelloWorld({required String message}) {
   print(message.replaceAll("", "Não"));
+}
+
+class MinhaClasse {
+  var message = "DEU CERTO";
 }
