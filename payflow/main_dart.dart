@@ -1,10 +1,10 @@
 void main() {
-  var MinhaClass = MinhaClasse();
-  printHelloWorld(message: MinhaClass.message);
+  var minhaClass = MinhaClasse();
+  printHelloWorld(message: minhaClass.message);
 }
 
 void printHelloWorld({required String message}) {
-  print(message.replaceAll("", "Não"));
+  //print(message.replaceAll("", "Não"));
 }
 
 class MinhaClasse {
